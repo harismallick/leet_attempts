@@ -8,6 +8,7 @@ If you choose a job that ends at time X you will be able to start another job th
 
 # Difficulty: Hard
 ## Need to learn trees datastructure for this challenge
+## Revisit once finishing datastructure tutorial
 
 def jobScheduling(startTime: list[int], endTime: list[int], profit: list[int]) -> int:
 
