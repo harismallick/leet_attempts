@@ -1,0 +1,8 @@
+Key algorithms encountered while researching optimal solutions for leet code problems:
+
+Floyd's Cycle Finding Algorithm, also called the Tortoise and the Hare algo.
+https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/
+
+Boyer-Moore Majority Voting Algorithm
+https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/
+
