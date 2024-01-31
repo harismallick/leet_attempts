@@ -6,3 +6,5 @@ https://www.geeksforgeeks.org/floyds-cycle-finding-algorithm/
 Boyer-Moore Majority Voting Algorithm
 https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/
 
+Calculate Hamming weight of bits:
+https://en.wikipedia.org/wiki/Hamming_weight

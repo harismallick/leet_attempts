@@ -37,4 +37,5 @@ def convertToTitle(columnNumber: int) -> str:
 
 if __name__ == '__main__':
 
-    print(convertToTitle(78))
+    print(convertToTitle(900))
+    print(convertToTitle(703))
