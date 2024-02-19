@@ -8,3 +8,20 @@ https://www.geeksforgeeks.org/boyer-moore-majority-voting-algorithm/
 
 Calculate Hamming weight of bits:
 https://en.wikipedia.org/wiki/Hamming_weight
+
+Dynamioc programming with bit manipulation:
+Use cases:
+How to calculate the no. of 1s in a number.
+If its for a single integer n, you can calculate the hamming weight.
+But for a series of integers from [0 to n], this would be O(nlogn).
+A faster solution is to use a precalculated value and bit-shifting.
+For a number i, number of 1s in this number is given by: (1s in i/2) + (i & 1).
+i/2 can be achieved by i >> 1
+i & 1 checks if the first digit in the binary is 0 or 1 (ie, odd or even).
+In this approach, we exploit the fact that shifting a number to the right by one bit (i.e., dividing by 2) removes the last bit. So, the number of 1's in the binary representation of i is the same as (number of 1s in i/2) plus the last bit of i (either 0 or 1). 
+
+Count trailing 0s in a byte:
+https://www.geeksforgeeks.org/count-trailing-zero-bits-using-lookup-table/
+This was useful for leet 342 - Power of 4
+To calculate if a number n is an exponent of 4, first we check n & n-1 to see if its an exponent of 2.
+Then we can check the number of trailing 0s to see if its even, which indicates the number is an exponent of 4.
